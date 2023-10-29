@@ -1,0 +1,42 @@
+.navbar {
+    width: 80%;
+    margin: 0 auto;
+    height: 124px;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 124px;
+    /* display: none; */
+}
+
+.nav_list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    font-size: 1.125rem;
+}
+
+.nav_item + .nav_item {
+    margin-left: 1em;
+}
+
+.nav_link {
+    color: #c8aadd;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: .5em;
+    transition: .5s;
+}
+
+.nav_link:hover {
+    color: #ecd98b;
+}
