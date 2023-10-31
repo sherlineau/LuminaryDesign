@@ -16,5 +16,12 @@
 
 .hero img{
     width: 36rem;
+    height: 36rem;
 }
 
+.col-img {
+    width: 75%;
+    max-height: 22rem;
+    /* width: 36rem; */
+    object-fit: cover;
+}

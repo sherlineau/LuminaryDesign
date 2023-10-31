@@ -27,13 +27,14 @@ h2 {
 
 p {
   font-size: 1.125rem;
+  line-height: 2.5rem;
 }
 
 .container {
   width: 80%;
   max-width: 1920px;
-  margin: 2rem auto;
-  padding: 3em;
+  margin:  auto;
+  padding: 2em;
 }
 
 .row {
@@ -48,12 +49,22 @@ p {
   margin-left: 3rem;
 }
 
-.placeholder-img {
-  width: 100%;
-  height: 400px;
-  background-color: green;
+.col {
+  padding: 2rem;
 }
 
 .col-text {
   padding: 2em;
+}
+
+.bg-dark-purple {
+  background-color: #c8aadd;
+}
+
+.bg-light-purple {
+  background-color: #d7bcea;
+}
+
+.bg-gold {
+  background-color: #ecd98b;
 }
