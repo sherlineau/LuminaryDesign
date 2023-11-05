@@ -4,10 +4,6 @@
     object-fit: cover;
 }
 
-.about h1 {
-    text-align: center;
-}
-
 .about p {
     padding: 2em;
 }
