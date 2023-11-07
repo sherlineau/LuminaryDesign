@@ -29,6 +29,10 @@
     margin-left: 1em;
 }
 
+.nav_item a {
+    font-weight: 500;
+}
+
 .nav_link {
     color: #c8aadd;
     text-decoration: none;
