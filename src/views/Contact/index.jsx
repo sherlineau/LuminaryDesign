@@ -4,7 +4,7 @@ import ContactForm from '../../components/ContactForm'
 const index = () => {
 
   return (
-    <div className="container-50">
+    <div className="contact">
       <h1>Contact Us</h1>
       <p>
         At Luminary Designs, we're here to assist you with all your creative
