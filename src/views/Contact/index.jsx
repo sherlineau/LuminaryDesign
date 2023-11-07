@@ -7,10 +7,10 @@ const index = () => {
     <div className="contact">
       <h1>Contact Us</h1>
       <p>
-        At Luminary Designs, we're here to assist you with all your creative
+        {`At Luminary Designs, we're here to assist you with all your creative
         needs. Whether you have questions about our services or want to discuss
         a specific project, we're just a message away. Feel free to reach out to
-        us through email or the following contact form
+        us through email or the following contact form`}
       </p>
 
       <p>
