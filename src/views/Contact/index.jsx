@@ -10,9 +10,10 @@ const index = () => {
         {`At Luminary Designs, we're here to assist you with all your creative
         needs. Whether you have questions about our services or want to discuss
         a specific project, we're just a message away. Feel free to reach out to
-        us through email or the following contact form`}
+        us through the following contact form `}
       </p>
 
+      {/* //! TODO : update email 
       <p>
         Email us at:
         <a
@@ -23,6 +24,7 @@ const index = () => {
           contact@luminarydesigns.com
         </a>
       </p>
+       */}
 
     <ContactForm />
 
