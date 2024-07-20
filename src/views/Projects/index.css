@@ -1,0 +1,14 @@
+.projects {
+    display: flex;
+    justify-content: center;
+}
+
+.projects table{
+    width: 50%;
+    text-align: center;
+}
+
+.projects th {
+    font-weight: 700;
+    color: #c8aadd;
+}

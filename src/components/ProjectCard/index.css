@@ -1,0 +1,26 @@
+.tech-list {
+    display: flex;
+    justify-content: center;
+}
+
+.tech {
+    list-style-type: none;
+    margin-right: 1rem;
+}
+.tech + .tech{
+    list-style-type: disc;
+    margin-left: 1rem;
+
+}
+
+.tech::marker {
+    color: #d7bcea;
+}
+
+.project-link {
+    color:#d7bcea;
+}
+
+.project-link:hover{
+    color:#ecd98b;
+}

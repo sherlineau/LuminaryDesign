@@ -8,12 +8,16 @@ const index = (projects) => {
       <td>{year}</td>
       <td>{title}</td>
       <td>
-        {built.map((item, i) => (
-          <span key={i}>{item}</span>
-        ))}
+        <ul className="tech-list">
+          {built.map((item, i) => (
+            <li className="tech" key={i}>
+              {item}
+            </li>
+          ))}
+        </ul>
       </td>
       <td>
-        <a href={link} target="_blank" rel="noopener noreferrer">
+        <a href={link} target="_blank" rel="noopener noreferrer" className="project-link">
           <FaExternalLinkAlt />
         </a>
       </td>
