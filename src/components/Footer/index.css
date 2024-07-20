@@ -1,0 +1,28 @@
+footer {
+    border-top: .25rem solid #c8aadd;
+}
+
+.footer{
+    width: 70%;
+    margin:auto;
+    padding: 2rem;
+}
+
+footer .heading {
+    font-family: 'Roboto', sans-serif;
+    color: #c8aadd;
+    font-weight: 500;
+}
+
+footer a {
+    display: block;
+}
+
+footer .logo {
+    margin: 0 5rem;
+}
+
+.copyright {
+    font-size: .75rem;
+    text-align: center;
+}
