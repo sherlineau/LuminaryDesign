@@ -5,7 +5,7 @@ const index = () => {
   return (
     <footer>
       <div className="footer row space-around">
-        <div className="">
+        <div>
           <Link to="/">
             <img src="/icon.png" alt="luminary designs logo" className="logo" />
           </Link>
