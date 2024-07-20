@@ -1,14 +1,18 @@
-.projects {
+.projects{
+    min-height: 62vh;
+}
+
+.project {
     display: flex;
     justify-content: center;
 }
 
-.projects table{
+.project table{
     width: 50%;
     text-align: center;
 }
 
-.projects th {
+.project th {
     font-weight: 700;
     color: #c8aadd;
 }

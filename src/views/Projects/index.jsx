@@ -4,9 +4,9 @@ import ProjectCard from "../../components/ProjectCard";
 
 const index = () => {
   return (
-    <div className="container">
+    <div className="container projects">
       <h1 className="accent">Project Archive</h1>
-      <div className="projects">
+      <div className="project">
         <table>
           <tr>
             <th>Year</th>
