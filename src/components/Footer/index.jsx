@@ -11,14 +11,15 @@ const index = () => {
           </Link>
           <p className="copyright">Luminary Designs &copy; 2024</p>
         </div>
-        <Link to="/contact-us" className="contact">
-          Contact Us
-        </Link>
+        
         <div className="policies">
           <p className="heading">Terms & Policies</p>
           <Link to="/dmca-policy">DMCA Policy</Link>
           <Link to="/privacy-policy">Privacy Policy</Link>
           <Link to="/terms-of-use">Terms of Use</Link>
+          <Link to="/contact-us" className="contact">
+          Contact Us
+        </Link>
         </div>
       </div>
     </footer>
