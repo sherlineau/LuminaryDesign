@@ -5,7 +5,7 @@ const index = () => {
 
   return (
     <div className="contact">
-      <h1>Contact Us</h1>
+      <h1 className="accent">Contact Us</h1>
       <p>
         {`At Luminary Designs, we're here to assist you with all your creative
         needs. Whether you have questions about our services or want to discuss

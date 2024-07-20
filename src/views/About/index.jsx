@@ -6,7 +6,7 @@ const index = () => {
       <div className="row">
         <img src="" alt="" className="img-placeholder" />
         <div className="col">
-          <h1>About Us</h1>
+          <h1 className="accent">About Us</h1>
           <p>
             Welcome to Luminary Designs, a creative venture born from the love
             and collaboration of two incredible individuals. We are Linda and
@@ -19,7 +19,7 @@ const index = () => {
         </div>
       </div>
 
-      <h1>Our Journey</h1>
+      <h1 className="accent">Our Journey</h1>
       <p>
         Linda, with a profound love for writing, is the wordsmith behind our
         operation. Her background includes writing for magazine articles and
@@ -33,7 +33,7 @@ const index = () => {
         contribute her technical expertise to Luminary Designs.
       </p>
 
-      <h1>Our Creative Expertise</h1>
+      <h1 className="accent">Our Creative Expertise</h1>
       <p>
         At Luminary Designs, we offer a diverse range of services. Linda's flair
         for copywriting ensures your message is not only communicated
@@ -49,7 +49,7 @@ const index = () => {
         online presence stand out.
       </p>
 
-      <h1>Technical Prowess</h1>
+      <h1 className="accent">Technical Prowess</h1>
       <p>
         Sherline and Linda work together to provide top-notch web development
         services. We create fully functional websites tailored to your unique
@@ -60,7 +60,7 @@ const index = () => {
 
       <div className="row">
         <div className="col">
-          <h1>Our Furry Companions</h1>
+          <h1 className="accent">Our Furry Companions</h1>
           <p>
             Apart from our shared love for technology and creativity, we share
             our lives with five wonderful cats who keep us company and add a

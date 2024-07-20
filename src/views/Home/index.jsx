@@ -18,7 +18,7 @@ const index = () => {
         <img src={web} alt="image of code" className="col-img col" />
         <div className="col">
           <div className="col-text">
-            <h1>web development</h1>
+            <h1 className="accent">web development</h1>
             <p>
               Whether you are in the market for a professional website or a dynamic web application, our team brings a blend of functionality and modern design. Lets collaborate to bring your visions to the light.
             </p>
@@ -29,7 +29,7 @@ const index = () => {
       <div className="container row">
         <div className="col">
           <div className="col-text">
-            <h1>graphic design</h1>
+            <h1 className="accent">graphic design</h1>
             <p>
               From engaging illustrations to impactful presentation layouts and distinctive digital graphics, our team is skilled in crafting visuals that make an impression.
             </p>
@@ -42,7 +42,7 @@ const index = () => {
         <img src={copy} alt="image of notebook and pen" className="col-img col" />
         <div className="col">
           <div className="col-text">
-            <h1>copywriting</h1>
+            <h1 className="accent">copywriting</h1>
             <p>
               Whether you are in search of persuasive marketing content, informative blog posts, or engaging website materials, our team possesses the expertise to create compelling written pieces.
             </p>

@@ -5,7 +5,7 @@ import ProjectCard from "../../components/ProjectCard";
 const index = () => {
   return (
     <div className="container">
-      <h1>Project Archive</h1>
+      <h1 className="accent">Project Archive</h1>
       <div className="projects">
         <table>
           <tr>
