@@ -6,6 +6,7 @@ footer {
     width: 70%;
     margin:auto;
     padding: 2rem;
+    align-items: center;
 }
 
 footer .heading {
@@ -18,11 +19,35 @@ footer a {
     display: block;
 }
 
-footer .logo {
-    margin: 0 5rem;
+footer .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
 }
-
 .copyright {
     font-size: .75rem;
     text-align: center;
+}
+
+footer .contact {
+    display: flex;
+    width: 10rem;
+    height: 4rem;;
+    background-color: #c8aadd;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color:white;
+    border-radius: .5rem;
+}
+
+footer .contact:hover {
+    background-color: #ecd98b;
+
+}
+
+footer .policies {
+    align-self: start;
 }
