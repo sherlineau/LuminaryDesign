@@ -46,7 +46,7 @@ const index = () => {
         <input type="text" name="subject" id="subject" />
 
         <label htmlFor="message">Message</label>
-        <textarea name="message" id="message" cols="30" rows="10" />
+        <textarea name="message" id="message" cols="30" rows="3" />
 
         <input type="submit" value="Send" />
       </form>
