@@ -80,8 +80,12 @@ p {
   background-color: #ecd98b;
 }
 
-.policies ul{
+.policies ul, .policies ol{
   padding-left: 3rem;
+}
+
+.policies ol {
+  list-style: lower-alpha;
 }
 
 .bold {
